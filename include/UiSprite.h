@@ -37,6 +37,7 @@ public:
       _stateCounter = 0;
     }
   }
+  void resetState() { _stateCounter = 0; }
   void setPos (uint16_t xPos, uint16_t yPos) { _xPos = xPos;
   _yPos = yPos; }
   bool isChanged() {return _isStateChanged; }

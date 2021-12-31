@@ -75,7 +75,6 @@
 
     timer = ESP32Timer(1);
     timer.attachInterruptInterval(SPRITE_TIMER_INTERRUPT_MS * 1000, timerHandler);
-
     loadingBar.setPos(20, 120);
 
     // initialize screen
